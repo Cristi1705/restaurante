@@ -1,13 +1,13 @@
-package com.fblc.matriculas.repositorio;
+package com.fblc.bibliotecas.repositorio;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-import com.fblc.matriculas.modelo.entidad.plato;
+import com.fblc.bibliotecas.modelo.entidad.Libro;
 
 @Repository
 @Component
-public interface IPlatoRepositorio extends JpaRepository<Integer, plato>{
+public interface ILibroRepositorio extends JpaRepository<Libro , Integer> {
 
 }

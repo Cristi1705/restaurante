@@ -1,7 +1,6 @@
-package com.fblc.matriculas.modelo.entidad;
+package com.fblc.bibliotecas.modelo.entidad;
 
 import java.io.Serializable;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,14 +9,14 @@ import lombok.Data;
 
 @Entity
 @Data
-public class cliente implements Serializable {
-
-private static final long serialVersionUID = 1L;
+public class Prestamo implements Serializable {
 	
+	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id_cliente;
+	private int id_prestamo;
 	
-	private String nombre_cliente;
-	private String telefono_cliente;
+	private Data fecha_prestamo;
+	private Data fecha_devolucion;
+	private String estado_prestamo;
 }

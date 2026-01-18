@@ -1,13 +1,13 @@
-package com.fblc.matriculas;
+package com.fblc.Biblioteca;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MatriculasApplication {
+public class BibliotecasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MatriculasApplication.class, args);
+		SpringApplication.run(BibliotecasApplication.class, args);
 	}
 
 }
