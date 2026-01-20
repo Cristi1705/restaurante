@@ -1,4 +1,4 @@
-package com.fblc.bibliotecas.modelo.entidad;
+package com.cscl.restaurante.modelo.entidad;
 
 import java.io.Serializable;
 
@@ -10,16 +10,13 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Miembro implements Serializable {
-
-	private static final long serialVersionUID = 1L;
+public class Plato implements Serializable{
+	
+	private static final long serialVersionUID = 1L; 
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id_miembro;
-	
-	private String nombre_miembro;
-	private String email_miembro;
-	private String telefono_miebro;
-		
+	private int id_plato;
+	private String nombre_plato;
+	private int precio_plato;	
 }

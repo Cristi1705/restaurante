@@ -1,4 +1,4 @@
-package com.fblc.bibliotecas.modelo.entidad;
+package com.cscl.restaurante.modelo.entidad;
 
 import java.io.Serializable;
 
@@ -10,15 +10,16 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Catalogo implements Serializable {
+public class Cliente implements Serializable {
 
-private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id_catalogo;
-	private String nombre_catalogo;
-	private String descripcion_catalogo;
-	private String totla_libros;
+	private int id_cliente;
 	
+	private String nombre_cliente;
+	private String email_cliente;
+	private String telefono_cliente;
+		
 }
