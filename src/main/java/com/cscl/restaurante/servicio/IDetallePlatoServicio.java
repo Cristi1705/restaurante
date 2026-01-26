@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.cscl.restaurante.modelo.entidad.DetallePlato;
 
-public interface IDetallePlatoServivio {
+public interface IDetallePlatoServicio {
 
 public DetallePlato insertarDetallePlato (DetallePlato nuevoDetallePlato);
 public DetallePlato editarDetallePlato (int idDetallePlato);

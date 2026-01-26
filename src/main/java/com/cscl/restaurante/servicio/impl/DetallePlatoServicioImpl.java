@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 
 import com.cscl.restaurante.modelo.entidad.DetallePlato;
 import com.cscl.restaurante.repositorio.IDetallePlatoRepositorio;
-import com.cscl.restaurante.servicio.IDetallePlatoServivio;
+import com.cscl.restaurante.servicio.IDetallePlatoServicio;
 
 @Service
 @Component
-public class DetallePlatoServicioImpl implements IDetallePlatoServivio{
+public class DetallePlatoServicioImpl implements IDetallePlatoServicio{
 
 	@Autowired
 	public IDetallePlatoRepositorio repositorioDetallePlato;

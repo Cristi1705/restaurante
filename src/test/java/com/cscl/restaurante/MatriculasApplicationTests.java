@@ -1,4 +1,4 @@
-package com.fblc.matriculas;
+package com.cscl.restaurante;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
